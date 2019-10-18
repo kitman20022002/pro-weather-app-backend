@@ -1,0 +1,23 @@
+{
+  "name": "pro-weather-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitman20022002/pro-weather-app-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitman20022002/pro-weather-app-backend/issues"
+  },
+  "homepage": "https://github.com/kitman20022002/pro-weather-app-backend#readme"
+}
