@@ -30,7 +30,7 @@
 const request = require('request')
 
 const geocode = (address, callback) => {
-    const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1Ijoia2l0bWFuMjAwMjIwMDIiLCJhIjoiY2sxd3BjOG54MDQ3ajNucWw0NzBqajRyciJ9.oCz-m_TQXx68DtTXL07nSA&limit=1';
+    const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token='+ mapbox_api_key +'&limit=1';
 
     request({ url, json: true }, (error, { body }) => {
         if (error) {
